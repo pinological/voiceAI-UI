@@ -1,0 +1,150 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.mainlogo {
+    height: 80px;
+}
+
+.rightnav {
+    margin: 0px 10px;
+}
+
+.navtop {
+    text-decoration: none;
+    color: #0C4996;
+    font-size: 1.2em;
+    margin: 0px 20px;
+    font-weight: bold;
+    transition: color font-size 0.5s ease-in-out;
+}
+
+.navtop:hover {
+    font-size: 1.4em;
+}
+
+.navsign {
+    color: #0c62ca;
+}
+
+.navUp {
+    background-color: #0C4996;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navUp:hover {
+    background-color: #ff9d00;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.imagebanner {
+    width: 600px;
+}
+
+.maintop {
+    font-size: 4em;
+    font-weight: bold;
+    color: #0C4996;
+}
+
+.mainsub {
+    font-size: 1.3em;
+    color: #0C4996;
+}
+
+.startGet {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    background-color: #0C4996;
+    padding: 20px;
+    text-decoration: none;
+    margin: 20px 0px;
+    border-radius: 30px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.startGet:hover {
+    background-color: #ff9d00;
+}
+
+.micbar {
+    background-color: #0C4996;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    bottom: 100px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.micCenter {
+    height: 40px;
+}
+
+.micbar:hover {
+    background-color: #ff9d00;
+}
+
+.custom-shape-divider-bottom-1644135109 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1644135109 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-bottom-1644135109 .shape-fill {
+    fill: #4A90E2;
+}
+
+
+/* footer curve */
+
+.custom-shape-divider-bottom-1644135190 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1644135190 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 157px;
+}
+
+.custom-shape-divider-bottom-1644135190 .shape-fill {
+    fill: #4A90E2;
+}
